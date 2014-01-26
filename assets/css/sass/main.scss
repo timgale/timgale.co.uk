@@ -1,0 +1,15 @@
+/**
+ * main.scss
+ * Author: Timothy Gale
+ * URL: http://timothygale.co.uk
+ */
+
+// vendor
+@import 'vendor/normalize';
+
+// partials
+@import 'partials/var';
+@import 'partials/base';
+@import 'partials/hack';
+@import 'partials/grid';
+@import 'partials/list';

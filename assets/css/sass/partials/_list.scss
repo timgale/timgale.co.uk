@@ -1,0 +1,34 @@
+/**
+ * _list.scss
+ * Author: Timothy Gale
+ * URL: http://timothygale.co.uk
+ */
+
+/*
+ * Default list style
+ */
+
+.list {
+	list-style-type: none;
+	padding: 0;
+
+	.list__item {
+		font-family: $sans-serif-bravo;
+		font-weight: 400;
+		margin: 0 0 1.5em 0;
+	}
+
+	.list__item__title {
+		font-size: 1.1em;
+		color: #444;
+		border: none;
+		padding: 0;
+	}
+
+	p {
+		color: #777;
+		margin: .5em 0;
+		line-height: 1.8em;
+	}
+
+}

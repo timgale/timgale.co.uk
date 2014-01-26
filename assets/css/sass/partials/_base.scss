@@ -1,0 +1,114 @@
+/* _base.sass
+ * Author: Timothy Gale
+ * URL: http://timothygale.co.uk
+ */
+
+body {
+	font-size: 100%;
+	background: #F4F4F4;
+}
+
+a {
+	text-decoration: none;
+	padding: 0 0 .1em 0;
+	border-bottom: 1px solid #777;
+	color: #444;
+	font-weight: 600;
+	transition: color .3s ease;
+
+	&:hover,
+	&:focus {
+		color: #000;
+	}
+
+}
+
+/*
+ * Headings
+ */
+
+/* FOUT */
+
+.wf-loading {
+	visibility: hidden;
+}
+
+.wf-active {
+	visibility: visible;
+}
+
+/*
+ * Main content heading
+ */
+
+.main-ct__heading,
+.main-ct__sub-heading {
+	margin: 0;
+}
+
+.main-ct__heading--alpha span {
+	font-family: $sans-serif-alpha;
+	font-weight: 500;
+	font-size: .9em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background: #FFF;
+	padding: .5em;
+	margin: 0 0 .5em 0;
+	display: inline-block;
+}
+
+.main-ct__heading--bravo {
+	font-family: $sans-serif-alpha;
+	font-weight: 500;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #777;
+}
+
+.main-ct__sub-heading span {
+	font-family: $sans-serif-alpha;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #777;
+	background: #FFF;
+	padding: .5em;
+	display: inline-block;
+}
+
+/* Heading media queries */
+
+/* < 900px */
+
+@media screen and (max-width: 900px) {
+
+	.main-ct__heading--alpha,
+	.main-ct__sub-heading {
+		display: block;
+	}
+
+}
+
+/*
+ * Main content
+ */
+
+.main-ct {
+	padding: 2em 0;
+	
+	.main-ct__block {
+		margin: 0 0 3em 0;
+	}
+
+	.main-ct__copy {
+		font-family: $sans-serif-bravo;
+		font-weight: 400;
+		font-size: 1.1em;
+		line-height: 2em;
+		color: #444;
+	}
+
+}
